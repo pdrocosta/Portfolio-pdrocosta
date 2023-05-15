@@ -1,16 +1,18 @@
 import React from "react";
-import { AboutSection } from "../components/About/aboutSection";
-import { ContactSection } from "../components/contact/contactSection";
-import { LandingSection } from "../components/Landing/landingSection";
-import { ProjectsSection } from "../components/projects/projectsSection";
+import { Header } from "../components/Header/header";
+import { Landing } from "./landing.page";
+import { About } from "./about.page";
+import { Projects } from "./projects.page";
+import { Contact } from "./contact.page";
 
 export const HomePage = () => {
   return (
     <>
-      <LandingSection />
-      <AboutSection />
-      <ProjectsSection />
-      <ContactSection />
+      <Header/>
+      <Landing />
+      <About />
+      <Projects />
+      <Contact/>
     </>
   );
 };

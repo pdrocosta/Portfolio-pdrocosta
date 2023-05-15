@@ -1,6 +1,6 @@
 import React from "react";
-import { StyledNameTitle } from "../About/styles";
-import { StyledHeader } from "./styles";
+import { StyledNameTitle } from "../../styles/about.styles";
+import { StyledHeader } from "../../styles/header.styles";
 
 export const Header = () => {
   return (
